@@ -9,6 +9,11 @@
         Sentiments
     </title>
 
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/images/favicon/site.webmanifest">
+
     <link rel="stylesheet" href="/css/index.css">
     <link rel="stylesheet" href="/vendor/fontawesome-free-5.13.0-web/css/all.min.css">
 </head>
@@ -27,22 +32,29 @@
             </div>
             <div class="mt-2">
                 <blockquote class="text-center">
-                    “ Some people make the world special just by being in it "
+                    “ All the beautiful things i want to say to you but don't know how! "
                 </blockquote>
                 <div class="card shadow nice-card">
                     <div class="card-body">
                         <form action="">
                             <div class="form-group">
-                                <label for="username">Username</label>
-                                <input type="text" class="form-control form-control-sm">
-                            </div>
-                            <div class="form-group">
-                                <label for="username">Password</label>
-                                <input type="text" class="form-control form-control-sm rounded-5">
+                                <label for="username">Key</label>
+                                <div class="form-row">
+                                    <div class="col">
+                                        <input type="text" class="form-control form-control-sm">
+                                    </div>
+                                    <div class="col">
+                                        <input type="text" class="form-control form-control-sm">
+                                    </div>
+                                    <div class="col">
+                                        <input type="text" class="form-control form-control-sm">
+                                    </div>
+                                </div>
+
                             </div>
                             <div class="form-group">
                                 <button class="btn-primary btn-sm btn">
-                                    <i class="fa fa-sign-in-alt"></i>&nbsp;Sign In
+                                    <i class="fa fa-unlock-alt"></i>&nbsp;Open
                                 </button>
                             </div>
                         </form>
@@ -54,7 +66,7 @@
                         &copy; {{date('Y')}}&nbsp;&middot; sentiments
                     </span>
                     <span class="float-right">
-                        A labor of love
+                        A labor of love <i class="fa fa-heart text-danger"></i>
                     </span>
                 </div>
 
