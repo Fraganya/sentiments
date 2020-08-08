@@ -1,0 +1,30 @@
+@import "variables";
+
+
+body {
+    border-top: 5px solid $primary-color;
+    border-bottom: 5px solid $primary-color;
+    min-height: 100vh;
+}
+
+.btn-primary {
+    border-radius: 10em;
+    background-color: darken($primary-color, 6);
+    border-color: $primary-color;
+    color: #fff !important;
+}
+
+
+img.logo-sm {
+    width: 5em;
+    height: auto;
+    margin-top: -1em;
+}
+
+.nice-card {
+    border-radius: 2em;
+    border: 5px solid $primary-color;
+    border-left: none;
+    border-right: none;
+    min-height: 10em;
+}
