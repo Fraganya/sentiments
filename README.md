@@ -5,3 +5,7 @@ A web app for love letters :smile:
 This is a labour of love  (A Hobby project)
 
 For placing a bunch of love letters to a loved one , a girlfriend , a crush e.t.c 
+
+
+## Stack
+Built with Laravel PHP and React.JS
