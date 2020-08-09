@@ -1,0 +1,13 @@
+@import "~bootstrap";
+@import "base";
+
+
+.nice-top-space {
+    margin-top: 10em!important;
+}
+
+@media screen and (max-width: 700px) {
+    .nice-top-space {
+        margin-top: 5em!important;
+    }
+}
