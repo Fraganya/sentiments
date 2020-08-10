@@ -8,4 +8,4 @@ For placing a bunch of love letters to a loved one , a girlfriend , a crush e.t.
 
 
 ## Stack
-Built with Laravel PHP and React.JS
+Built with Lumen PHP and React.JS
